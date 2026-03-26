@@ -39,7 +39,7 @@ Test Multiplication
     [Teardown]    Stop Calculator
 
 Test Division
-    [Documentation]  Test the division functionality of the calculator.
+    [Documentation]   Test the division functionality of the calculator.
     [Tags]    calculator    division
     [Setup]    Start Calculator
     Set A    6
@@ -50,7 +50,7 @@ Test Division
     [Teardown]    Stop Calculator
 
 Test Division By Zero
-    [Documentation]  Test division by zero raises an error.
+    [Documentation]   Test division by zero raises an error.
     [Tags]    calculator    division_by_zero
     [Setup]    Start Calculator
     Set A    6
