@@ -33,9 +33,8 @@ $ source ./.venv/Scripts/activate
 $ node --version
 $ npm --version
 
+$ pip install robotframework robotframework-requests robotframework-ride robotframework-robocop
 $ pip install -r requirements.txt
-
-$ rfbrowser init
 
 $ robot -T --loglevel DEBUG -d results/ --include a suites/.
 $ robot -T --loglevel DEBUG -d results/ --include a --include b suites/.
