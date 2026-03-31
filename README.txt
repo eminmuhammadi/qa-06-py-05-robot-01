@@ -26,17 +26,24 @@ $ ./.venv/Scripts/ride
 
 >>> Setup:
 
-$ python -m venv .venv
+$ py -m venv .venv
 
 $ source ./.venv/Scripts/activate
 
 $ node --version
 $ npm --version
 
-$ pip install robotframework robotframework-requests robotframework-ride robotframework-robocop
+MacOS:
+
+$ pip install robotframework robotframework-requests robotframework-robocop
+
+Or:
+
 $ pip install -r requirements.txt
 
-$ robot -T --loglevel DEBUG -d results/ --include a suites/.
+---
+
+$ robot -T --loglevel DEBUG -d results/ --include calculator suites/.
 $ robot -T --loglevel DEBUG -d results/ --include a --include b suites/.
 
 $ python -m robot.libdoc ./libs/calculator.py ./docs/calculator.html

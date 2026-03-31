@@ -10,7 +10,7 @@ Test Addition
     [Tags]    calculator    addition
     Given The Calculator Is Running
     When I Add 5 And 3
-    Then The Result Should Be 7
+    Then The Result Should Be 8
 
 Test Subtraction
     [Documentation]   Test the subtraction functionality of the calculator.
