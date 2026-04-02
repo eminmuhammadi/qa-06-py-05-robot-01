@@ -35,14 +35,10 @@ Eger A Bden Boyukdurse Ekrana Boyukdur Yaz
     [Documentation]   serti emeliyyat apar
     VAR    ${a}=    5
     VAR    ${b}=    3
-    IF    ${a} > ${b}
-        Log To Console    Boyukdur
-    END
+    IF    ${a} > ${b}    Log To Console    Boyukdur
 
 Eger A Bden Kicikdirse Ekrana Kicikdir Yaz
     [Documentation]   serti emeliyyat apar
     VAR    ${a}=    2
     VAR    ${b}=    3
-    IF    ${a} < ${b}
-        Log To Console    Kicikdir
-    END
+    IF    ${a} < ${b}    Log To Console    Kicikdir
