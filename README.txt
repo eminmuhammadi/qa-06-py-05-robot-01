@@ -41,6 +41,8 @@ Or:
 
 $ pip install -r requirements.txt
 
+$ rfbrowser init
+
 ---
 
 $ robot -T --loglevel DEBUG -d results/ --include calculator suites/.
