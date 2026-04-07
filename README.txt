@@ -35,7 +35,7 @@ $ npm --version
 
 MacOS:
 
-$ pip install robotframework robotframework-requests robotframework-robocop
+$ pip install robotframework robotframework-browser robotframework-requests robotframework-robocop
 
 Or:
 
